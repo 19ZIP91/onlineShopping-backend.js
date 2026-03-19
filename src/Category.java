@@ -1,13 +1,14 @@
-public class Product {
+public abstract class Category {
     private int ID;
     private String title;
     private double price;
 
-    public Product(int ID, String title, double price){
+    public Category(int ID, String title, double price){
         this.ID = ID;
         this.title = title;
         this.price = price;
     }
+    public abstract void (){}
     public int getID(){
         return this.ID;
     }

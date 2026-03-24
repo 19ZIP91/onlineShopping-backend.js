@@ -1,4 +1,2 @@
-package PACKAGE_NAME;
-
-public class Textile {
+public class Textile extends Product{
 }

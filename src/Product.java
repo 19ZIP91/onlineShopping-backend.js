@@ -8,7 +8,12 @@ public abstract class Product {
         this.title = title;
         this.price = price;
     }
+    private int ID(int ID){//TODO ID?
+        ++ID;
+        return ID;
+    }
     public abstract void (){}
+
     public int getID(){
         return this.ID;
     }

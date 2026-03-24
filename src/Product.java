@@ -1,9 +1,9 @@
-public abstract class Category {
+public abstract class Product {
     private int ID;
     private String title;
     private double price;
 
-    public Category(int ID, String title, double price){
+    public Product(int ID, String title, double price){
         this.ID = ID;
         this.title = title;
         this.price = price;

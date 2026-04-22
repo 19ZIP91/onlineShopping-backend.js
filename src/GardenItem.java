@@ -1,6 +1,6 @@
 public class GardenItem extends Product{
-    public GardenItem(int ID, String title, double price) {
-        super(ID, title, price);
+    public GardenItem(String title, double price) {
+        super(title, price);
     }
 
     @Override
